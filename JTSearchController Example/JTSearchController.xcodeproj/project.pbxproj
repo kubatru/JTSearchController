@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BFCA62F1C148C70005D5601 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BFCA62E1C148C70005D5601 /* main.m */; };
+		3BFCA6321C148C70005D5601 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BFCA6311C148C70005D5601 /* AppDelegate.m */; };
+		3BFCA6381C148C70005D5601 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BFCA6361C148C70005D5601 /* Main.storyboard */; };
+		3BFCA63A1C148C70005D5601 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BFCA6391C148C70005D5601 /* Assets.xcassets */; };
+		3BFCA63D1C148C70005D5601 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BFCA63B1C148C70005D5601 /* LaunchScreen.storyboard */; };
+		3BFEB6A01C161A700003BD0D /* ViewControllerExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BFEB69F1C161A700003BD0D /* ViewControllerExample.m */; };
+		3BFEB6A81C161F090003BD0D /* JTSearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BFEB6A71C161F090003BD0D /* JTSearchController.m */; };
+		D46A5B16F7A6D3262D2E1BBF /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3078A7EE84CEE56B6880A353 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3078A7EE84CEE56B6880A353 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BFCA62A1C148C70005D5601 /* JTSearchController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JTSearchController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BFCA62E1C148C70005D5601 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3BFCA6301C148C70005D5601 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3BFCA6311C148C70005D5601 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3BFCA6371C148C70005D5601 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3BFCA6391C148C70005D5601 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3BFCA63C1C148C70005D5601 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3BFCA63E1C148C70005D5601 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BFCA6451C14A486005D5601 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		3BFCA6461C14A486005D5601 /* JTHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTHelpers.h; sourceTree = "<group>"; };
+		3BFEB69E1C161A700003BD0D /* ViewControllerExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerExample.h; sourceTree = "<group>"; };
+		3BFEB69F1C161A700003BD0D /* ViewControllerExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerExample.m; sourceTree = "<group>"; };
+		3BFEB6A61C161F090003BD0D /* JTSearchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTSearchController.h; sourceTree = "<group>"; };
+		3BFEB6A71C161F090003BD0D /* JTSearchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTSearchController.m; sourceTree = "<group>"; };
+		6E064A04239F32D94C675DCC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		E1C8F46CC4500FAC41CFAE84 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BFCA6271C148C70005D5601 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D46A5B16F7A6D3262D2E1BBF /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BFCA6211C148C70005D5601 = {
+			isa = PBXGroup;
+			children = (
+				3BFCA62C1C148C70005D5601 /* JTSearchController */,
+				3BFCA62B1C148C70005D5601 /* Products */,
+				5FFAB26E4CD38AC98482261B /* Pods */,
+				E41ECA4028971687FF192BF0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3BFCA62B1C148C70005D5601 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BFCA62A1C148C70005D5601 /* JTSearchController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BFCA62C1C148C70005D5601 /* JTSearchController */ = {
+			isa = PBXGroup;
+			children = (
+				3BFEB6A51C161F090003BD0D /* JTSearchController */,
+				3BFCA6471C14A48F005D5601 /* Example */,
+				3BFCA6441C14A486005D5601 /* Helpers */,
+				3BFCA6361C148C70005D5601 /* Main.storyboard */,
+				3BFCA63B1C148C70005D5601 /* LaunchScreen.storyboard */,
+				3BFCA6391C148C70005D5601 /* Assets.xcassets */,
+				3BFCA63E1C148C70005D5601 /* Info.plist */,
+				3BFCA6301C148C70005D5601 /* AppDelegate.h */,
+				3BFCA6311C148C70005D5601 /* AppDelegate.m */,
+				3BFCA62D1C148C70005D5601 /* Supporting Files */,
+			);
+			path = JTSearchController;
+			sourceTree = "<group>";
+		};
+		3BFCA62D1C148C70005D5601 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BFCA62E1C148C70005D5601 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3BFCA6441C14A486005D5601 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				3BFCA6451C14A486005D5601 /* Constants.h */,
+				3BFCA6461C14A486005D5601 /* JTHelpers.h */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		3BFCA6471C14A48F005D5601 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				3BFEB69E1C161A700003BD0D /* ViewControllerExample.h */,
+				3BFEB69F1C161A700003BD0D /* ViewControllerExample.m */,
+			);
+			name = Example;
+			sourceTree = "<group>";
+		};
+		3BFEB6A51C161F090003BD0D /* JTSearchController */ = {
+			isa = PBXGroup;
+			children = (
+				3BFEB6A61C161F090003BD0D /* JTSearchController.h */,
+				3BFEB6A71C161F090003BD0D /* JTSearchController.m */,
+			);
+			name = JTSearchController;
+			path = ../../JTSearchController;
+			sourceTree = "<group>";
+		};
+		5FFAB26E4CD38AC98482261B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6E064A04239F32D94C675DCC /* Pods.debug.xcconfig */,
+				E1C8F46CC4500FAC41CFAE84 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E41ECA4028971687FF192BF0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3078A7EE84CEE56B6880A353 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BFCA6291C148C70005D5601 /* JTSearchController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BFCA6411C148C70005D5601 /* Build configuration list for PBXNativeTarget "JTSearchController" */;
+			buildPhases = (
+				6FBFFFB5571A4BD758971962 /* Check Pods Manifest.lock */,
+				3BFCA6261C148C70005D5601 /* Sources */,
+				3BFCA6271C148C70005D5601 /* Frameworks */,
+				3BFCA6281C148C70005D5601 /* Resources */,
+				FDF6324322C35F3AA912C5A0 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JTSearchController;
+			productName = JTSearchController;
+			productReference = 3BFCA62A1C148C70005D5601 /* JTSearchController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BFCA6221C148C70005D5601 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Jakub Truhlar";
+				TargetAttributes = {
+					3BFCA6291C148C70005D5601 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 3BFCA6251C148C70005D5601 /* Build configuration list for PBXProject "JTSearchController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3BFCA6211C148C70005D5601;
+			productRefGroup = 3BFCA62B1C148C70005D5601 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BFCA6291C148C70005D5601 /* JTSearchController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BFCA6281C148C70005D5601 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BFCA63D1C148C70005D5601 /* LaunchScreen.storyboard in Resources */,
+				3BFCA63A1C148C70005D5601 /* Assets.xcassets in Resources */,
+				3BFCA6381C148C70005D5601 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6FBFFFB5571A4BD758971962 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FDF6324322C35F3AA912C5A0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BFCA6261C148C70005D5601 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BFEB6A01C161A700003BD0D /* ViewControllerExample.m in Sources */,
+				3BFCA6321C148C70005D5601 /* AppDelegate.m in Sources */,
+				3BFCA62F1C148C70005D5601 /* main.m in Sources */,
+				3BFEB6A81C161F090003BD0D /* JTSearchController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3BFCA6361C148C70005D5601 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BFCA6371C148C70005D5601 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3BFCA63B1C148C70005D5601 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BFCA63C1C148C70005D5601 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3BFCA63F1C148C70005D5601 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3BFCA6401C148C70005D5601 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3BFCA6421C148C70005D5601 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E064A04239F32D94C675DCC /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JTSearchController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jakubtruhlar.JTSearchController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3BFCA6431C148C70005D5601 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1C8F46CC4500FAC41CFAE84 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JTSearchController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jakubtruhlar.JTSearchController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BFCA6251C148C70005D5601 /* Build configuration list for PBXProject "JTSearchController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BFCA63F1C148C70005D5601 /* Debug */,
+				3BFCA6401C148C70005D5601 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BFCA6411C148C70005D5601 /* Build configuration list for PBXNativeTarget "JTSearchController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BFCA6421C148C70005D5601 /* Debug */,
+				3BFCA6431C148C70005D5601 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3BFCA6221C148C70005D5601 /* Project object */;
+}

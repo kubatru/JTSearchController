@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller Example-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewControllerExample" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <searchBar contentMode="redraw" searchBarStyle="minimal" translatesAutoresizingMaskIntoConstraints="NO" id="5os-se-cw1">
+                                <rect key="frame" x="0.0" y="20" width="320" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="wJm-rL-HTG"/>
+                                </constraints>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="1CK-39-pp0">
+                                <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="1CK-39-pp0" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="9KZ-2Y-RDD"/>
+                            <constraint firstAttribute="trailing" secondItem="1CK-39-pp0" secondAttribute="trailing" id="Gbw-h4-YYa"/>
+                            <constraint firstAttribute="trailing" secondItem="5os-se-cw1" secondAttribute="trailing" id="NiF-ri-hg3"/>
+                            <constraint firstItem="1CK-39-pp0" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="44" id="QMe-UY-owE"/>
+                            <constraint firstItem="5os-se-cw1" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="ZOd-J4-YFd"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="1CK-39-pp0" secondAttribute="bottom" id="mFb-ZM-Dhv"/>
+                            <constraint firstItem="5os-se-cw1" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="s9G-xg-t5o"/>
+                            <constraint firstItem="1CK-39-pp0" firstAttribute="top" secondItem="5os-se-cw1" secondAttribute="bottom" id="zqT-4C-u0v"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="s9G-xg-t5o"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="searchBar" destination="5os-se-cw1" id="k0h-CG-jKH"/>
+                        <outlet property="tableView" destination="1CK-39-pp0" id="Wbp-H9-wws"/>
+                        <outlet property="tableViewTopConstraint" destination="QMe-UY-owE" id="n66-tK-cCm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-221" y="413"/>
+        </scene>
+    </scenes>
+</document>
