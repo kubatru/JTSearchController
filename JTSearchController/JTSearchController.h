@@ -38,6 +38,7 @@
  *  Do NOT forget to override these UIScrollViewDelegate methods implemented in this class.
  *  - (void)scrollViewDidScroll:(UIScrollView *)scrollView
  *  - (void)scrollViewWillBeginDragging:(UIScrollView *)scrollView
+ *  - (BOOL)scrollViewShouldScrollToTop:(UIScrollView *)scrollView
  *  - (void)scrollViewDidScrollToTop:(UIScrollView *)scrollView
  *  - (void)scrollViewWillEndDragging:(UIScrollView *)scrollView withVelocity:(CGPoint)velocity targetContentOffset:(inout CGPoint *)targetContentOffset
  */

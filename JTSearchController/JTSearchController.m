@@ -12,6 +12,7 @@
 
 @property (nonatomic, assign) CGFloat beginOffsetY;
 @property (nonatomic, assign) CGFloat beginContentOffsetY;
+@property (nonatomic, assign) bool scrollingToTop;
 
 @end
 
@@ -30,6 +31,11 @@
 #pragma mark - UIScrollViewDelegate
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView {
     if (scrollView == self.tableView) {
+        
+        if (self.scrollingToTop) {
+            return;
+        }
+        
         CGPoint translation = [scrollView.panGestureRecognizer translationInView:scrollView];
         
         if (translation.y > 0.0) {
@@ -66,8 +72,17 @@
     }
 }
 
+- (BOOL)scrollViewShouldScrollToTop:(UIScrollView *)scrollView {
+    if (!self.scrollingToTop) {
+        [self showSearchBar];
+        self.scrollingToTop = true;
+    }
+    
+    return true;
+}
+
 - (void)scrollViewDidScrollToTop:(UIScrollView *)scrollView {
-    [self showSearchBar];
+    self.scrollingToTop = false;
 }
 
 - (void)scrollViewWillEndDragging:(UIScrollView *)scrollView withVelocity:(CGPoint)velocity targetContentOffset:(inout CGPoint *)targetContentOffset {

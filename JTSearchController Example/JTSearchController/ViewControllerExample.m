@@ -50,12 +50,13 @@
 }
 
 #pragma mark - UIScrollViewDelegate
-- (void)scrollViewDidScrollToTop:(UIScrollView *)scrollView {
-    [super scrollViewDidScrollToTop:scrollView];
-}
-
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView {
     [super scrollViewDidScroll:scrollView];
+}
+
+- (BOOL)scrollViewShouldScrollToTop:(UIScrollView *)scrollView {
+    [super scrollViewShouldScrollToTop:scrollView];
+    return true;
 }
 
 - (void)scrollViewWillBeginDragging:(UIScrollView *)scrollView {
